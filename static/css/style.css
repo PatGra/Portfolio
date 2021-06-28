@@ -1,27 +1,28 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0em;
+    padding: 0em;
     text-align: center;
     background-color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
 img{
-    border:3px solid  #0F3B39;
+    border:0.25em solid  #0F3B39;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-top: 50px;  
+    width: 8em;
+    height: 8em;
+    margin-top: 3em;  
     object-fit: cover;  
 }
 
 h1, h2 {
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 0em;
+    font-size: 7vw;
 }
 .line{
     border:1px solid black;
-    margin-top: 0px;
+    margin-top: 0em;
     display: block;
 }
 
@@ -41,11 +42,11 @@ a{
 ul li a{
     display: block;
     text-align: center;
-    padding: 5px;
+    padding: 0.31em;
     color: white;
     background-color: #0F3B39;
     text-transform: uppercase;
-    margin-bottom: 1px;
+    margin-bottom: 0.06em;
 }
 li:last-child a{
     background-color: black;
@@ -55,7 +56,7 @@ a:hover{
     color:gray
 }
 ul{
-    padding:0px;
+    padding:0em;
 }
 }
 h2 {
@@ -67,5 +68,10 @@ p + span {
     text-align: left;    
 }
 p{
-    margin-bottom: 0px;;
+    margin-bottom: 0em;
 }
+
+.section #kontakt div a{
+    font-size: 3vw;
+}
+
