@@ -9,8 +9,8 @@ body {
 img{
     border:0.25em solid  #0F3B39;
     border-radius: 50%;
-    width: 8em;
-    height: 8em;
+    width: 13vw;
+    height: 13vw;
     margin-top: 3em;  
     object-fit: cover;  
 }
