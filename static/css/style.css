@@ -50,11 +50,12 @@ ul li a{
 }
 li:last-child a{
     background-color: black;
-    color:white;
+    
 }
 a:hover{
-    color:gray
+    color:gray;
 }
+
 ul{
     padding:0em;
 }
