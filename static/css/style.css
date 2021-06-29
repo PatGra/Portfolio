@@ -3,7 +3,7 @@ body {
     padding: 0em;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-family: 'Lato', 'Arial Narrow', Arial, sans-serif;    
 }
 
 img{
@@ -13,6 +13,11 @@ img{
     height: 13vw;
     margin-top: 3em;  
     object-fit: cover;  
+}
+
+h1 {
+    font-family:;
+    letter-spacing: 0.02em;
 }
 
 h1, h2 {
@@ -73,4 +78,17 @@ p{
 
 h1:first-of-type{
     font-size: 3vw;
+}
+
+.fab.fa-github  {
+    font-size: 1.25em;
+    vertical-align: -0.10em;
+} 
+
+i, a>span{
+    color: #0F3B39;
+}
+
+a:hover i, a:hover span{
+    color:gray;
 }
