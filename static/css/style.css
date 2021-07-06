@@ -92,3 +92,36 @@ i, a>span{
 a:hover i, a:hover span{
     color:gray;
 }
+
+label {
+    display: block;
+    padding-top: 1em;
+    color: #0F3B39;
+    text-align: center;
+}
+
+button {
+    border:none;
+    border-radius: 1em;
+    padding: 0 1.5em;
+    background-color: #0F3B39;
+    color: white;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+input, textarea {
+    border: none;
+    border-color: #0F3B39;
+}
+
+textarea:hover {
+    color:gray
+}
+
+textarea {
+    vertical-align: top;
+}
