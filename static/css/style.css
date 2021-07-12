@@ -129,7 +129,7 @@ textarea {
 @media screen and (min-width: 500px) {
    #navigation ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
        
     }
     ul li a {
@@ -143,5 +143,5 @@ textarea {
         background-color:transparent;   
     }
 
-    
+
 }
